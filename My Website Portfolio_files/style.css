@@ -1,0 +1,110 @@
+
+
+.body {
+      font-family: roboto; verdana;
+
+}
+
+.row
+{
+    max-width: 1800px;
+
+
+}
+
+.main-nav {
+      float: right;
+      list-style: none;
+      margin-top: 30px; 
+      margin-left: 250px;
+}
+
+.main-nav li {
+       display: inline-block;
+}
+
+.main-nav li.active a {
+      border: 1px solid white;
+
+}
+
+
+.main-nav li a:hover {
+      border: 1px solid white;
+}
+
+.main-nav li a {
+       color: #FF5733;
+       text-decoration: none;
+       padding: 5px 15px;
+       font-family: "Roboto", Calibri;
+       font-size: 20px;
+}
+
+
+.title {
+      position: absolute;
+      width: 1200px;
+      margin-left: 45;
+      margin-top: 200px;
+}
+
+h1 {
+      color: #0C78F3;
+      text-transform: none;
+      font-size: 60px;
+      text-align: center;
+      margin-top: 200px;
+}
+
+header {
+      background-image: url(images/cahier.jpeg);
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+}
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+    border: 1px solid white;
+    float: left;
+    
+}
+
+.button {
+      margin-top: 30px;
+      margin-left: 440px;
+}
+
+.btn {
+      border: 1px solid white;
+      padding: 10px 30px;
+      color: white;
+      text-decoration: none;
+      margin-right: 5px;
+      font-size: 23px;
+      text-transform: none;
+}
+
+.btn-one {
+      background-color: #FF5733;
+      font-family: "roboto";
+}
+
+.btn-two {
+      background-color: #FF5733;
+      font-family: "roboto";
+}
+
+.btn-two {
+      font-family: "roboto";
+}
+
+.btn-two:hover {
+      background-color: solid white;
+      transition: all 0.5s ease-in;
+}
+
+
